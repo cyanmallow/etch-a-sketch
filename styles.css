@@ -1,0 +1,21 @@
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 80px;
+    grid-gap: 1px; /* Adjust as needed */
+    border: 1px solid black; /* Optional border around the grid */
+}
+
+.square {
+    width: calc(800% / 16); /* Each square takes up 1/16th of the container width */
+    height: calc(1300% / 16); /* Each square takes up 1/16th of the container height */
+    background-color: white; /* Adjust as needed */
+    border: 0.2px solid black; /* Optional border around each square */
+}
+
+.square.blue{
+    background-color: blue; /* Adjust as needed */
+
+}
