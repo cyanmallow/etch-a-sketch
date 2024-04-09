@@ -1,4 +1,6 @@
-
+body {
+    zoom: 5;
+}
 #grid-container {
     display: grid;
     grid-template-columns: repeat(16, 1fr);

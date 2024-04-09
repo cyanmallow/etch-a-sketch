@@ -37,3 +37,8 @@ function resetColors(){
         square.classList.remove("blue");
     });
 }
+
+document.getElementById('change').addEventListener('click', function(){
+    prompt("Enter number: ");
+     
+})
